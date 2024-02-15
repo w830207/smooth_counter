@@ -2,7 +2,7 @@ import 'package:intl/intl.dart';
 
 /// A formatter for numbers.
 class Formatter {
-  late final _formatter = NumberFormat();
+  late final _formatter = NumberFormat("#,###.0");
 
   /// Formats a number.
   /// number: the number to format.
